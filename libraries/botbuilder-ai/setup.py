@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='microsoft-botbuilder-ai',
+    name='botbuilder-ai',
     version='4.0.0-a0',
     url='https://www.github.com/Microsoft/botbuilder-python',
     long_description='Cognitive services extensions for Microsoft BotBuilder.',
@@ -9,7 +9,7 @@ setup(
     author='Microsoft',
     author_email='bf-reports@microsoft.com',
     description='',
-    packages=find_packages(),
+    packages=["botbuilder.ai"],
     classifiers=[
         'Programming Language :: Python',
         'Intended Audience :: Bot Developers',
